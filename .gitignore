@@ -1,0 +1,18 @@
+# ignore everything
+**
+
+!.profile
+!.xinitrc
+!.xprofile
+!.zprofile
+!.gitmodules
+
+!.local
+!.local/**
+
+!.config
+!.config/**
+
+# for git
+!.gitignore
+!.gitconfig
