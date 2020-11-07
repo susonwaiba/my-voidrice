@@ -13,6 +13,8 @@
 !.config
 !.config/**
 
+!README.md
+
 # for git
 !.gitignore
 !.gitconfig
