@@ -12,6 +12,7 @@
 !.local/src/**
 .local/share/JetBrains
 .local/share/vsliveshare
+.local/share/iwctl
 
 !.config
 !.config/**
@@ -22,12 +23,18 @@
 .config/joplin-desktop
 .config/JetBrains
 .config/skypeforlinux
+.config/zsh/.zcompdump
 
 !README.md
 
 # for git
 !.gitignore
 !.gitconfig
+
+# for vim
+.config/nvim/autoload
+.config/nvim/plugged
+.local/share/nvim
 
 # for vscode
 !.config/Code/
