@@ -1,0 +1,259 @@
+{
+    // ***********************
+    // - Editor
+    // ***********************
+
+    "editor.minimap.enabled": true,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 26,
+    "editor.fontFamily": "'Cascadia Code', 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.rulers": [
+        120
+    ],
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.hover.sticky": true,
+    "editor.columnSelection": false,
+    "editor.renderIndentGuides": false,
+    "editor.renameOnType": true,
+    // "editor.formatOnSave": true,
+    // "editor.formatOnSaveMode": "modifications",
+    
+    // ***********************
+    // - Workbench
+    // ***********************
+    
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "default",
+    // "window.titleBarStyle": "custom",
+    "files.autoSave": "onWindowChange",
+    // "files.associations": {
+    //     ".env*": ".env",
+    //     "Dockerfile_*": "Dockerfile",
+    //     "Dockerfile-*": "Dockerfile",
+    // },
+    "workbench.editor.closeEmptyGroups": true,
+    "workbench.tree.indent": 22,
+    "workbench.editor.showIcons": true,
+    "workbench.tips.enabled": true,
+    "workbench.sideBar.location": "left",
+    "workbench.colorTheme": "Cobalt2",
+    // "workbench.dialogs.useSimplified": true,
+    "breadcrumbs.enabled": true,
+    "explorer.autoReveal": false,
+    // "extensions.ignoreRecommendations": false,
+    
+    // Search
+    "search.maintainFileSearchCache": true,
+    
+    // ***********************
+    // - Terminal
+    // ***********************
+    
+    "terminal.integrated.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.4,
+    "terminal.integrated.showExitAlert": false,
+
+    // ***********************
+    // - For comments
+    // ***********************
+    
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    
+    // ***********************
+    // - For Git
+    // ***********************
+
+    "git.autofetch": true,
+    "gitlens.mode.active": "zen",
+    "gitlens.views.repositories.files.layout": "tree",
+    "gitlens.views.repositories.files.compact": false,
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "explorer",
+    "gitlens.views.lineHistory.location": "explorer",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    // "gitlab.instanceUrl": "https://git.javra.com",
+    // "gitlab.remoteName": "origin",
+    // "gitlens.codeLens.visibility": "ondemand",
+    // "gitlens.codeLens.recentChange.enabled": false,
+    // "gitlens.codeLens.authors.enabled": false,
+    // "gitlens.currentLine.enabled": false,
+    // "files.watcherExclude": {
+    //     "**/.git/objects/**": true,
+    //     "**/.git/subtree-cache/**": true,
+    //     "**/node_modules/*/**": true
+    // },
+
+    // ***********************
+    // - For Todo
+    // ***********************
+
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.highlights.enabled": true,
+    "todo-tree.general.tags": [
+        "XXX",
+        "TODO",
+        "Todo",
+        "todo",
+        "TEST",
+        "HACK",
+        "FIXME",
+        "BUG",
+        "SUSON"
+    ],
+    
+    // ***********************
+    // - Lang: HTML
+    // ***********************
+
+    "[html]": {
+        // "editor.defaultFormatter": "mblode.twig-language"
+    },
+    
+    // ***********************
+    // - Lang: Markdown
+    // ***********************
+
+    "[markdown]": {
+        // "editor.minimap.enabled": true
+    },
+    
+    // ***********************
+    // - Lang: JSON
+    // ***********************
+
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        // "editor.defaultFormatter": "vscode.json-language-features",
+        // "editor.minimap.enabled": true
+    },
+
+    // ***********************
+    // - Lang: Javascript
+    // ***********************
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        // "editor.defaultFormatter": "vscode.typescript-language-features",
+        // "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.formatOnSave": true
+        // "editor.minimap.enabled": true
+    },
+    // "prettier.jsxSingleQuote": true,
+    // "prettier.jsxBracketSameLine": true,
+    // "prettier.packageManager": "yarn",
+    // "prettier.singleQuote": true,
+    // "prettier.tabWidth": 4,
+    
+    // ***********************
+    // - Lang: PHP
+    // ***********************
+
+    // "[php]": {
+    //     "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    //     "editor.formatOnSave": true
+    // },
+    // "php.validate.executablePath": "/usr/local/bin/php",
+    // "php.suggest.basic": false,
+    // "php.validate.run": "onType",
+
+    // "php.executablePath": "/usr/local/bin/php",
+
+    // NOTE: Search for @builtin php --> Disable PHP Language Features. Leave PHP Language Basics enabled for syntax highlighting.
+    // "intelephense.environment.phpVersion": "7.4",
+    // "intelephense.diagnostics.enable": true,
+    // "intelephense.environment.documentRoot": "public/index.php",
+    // "intelephense.environment.shortOpenTag": false,
+    // "intelephense.format.braces": "psr12",
+    // "files.associations": { "*.module": "php" },
+    // "files.associations": {
+    //     ".env*": ".env",
+    //     "Dockerfile_*": "Dockerfile",
+    //     "Dockerfile-*": "Dockerfile"
+    // },
+    // "intelephense.files.associations": {
+		// "*.php",
+		// "*.phtml"
+    // },
+
+    // "composer.executablePath": "/usr/local/bin/composer",
+
+    // "phpcs.composerJsonPath": "composer.json",
+    // "phpcs.executablePath": "/var/www/project/vendor/bin/phpcs",
+    // "phpcs.standard": "PSR2",
+    // "phpcs.standard": "vendor/magento/magento-coding-standard/Magento2/ruleset.xml",
+
+    // "phpmd.command": "/var/www/project/vendor/bin/phpmd",
+    // "phpmd.rules": "cleancode,codesize,unusedcode,naming,controversial,design",
+    // "phpmd.rules": "dev/tests/static/testsuite/Magento/Test/Php/_files/phpmd/ruleset.xml",
+    
+    // "php-cs-fixer.executablePath": "/var/www/project/vendor/bin/php-cs-fixer",
+    // "php-cs-fixer.rules": "@PSR2",
+    // "php-cs-fixer.rules": "dev/tests/static/framework/Magento/ruleset.xml",
+    // "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    // "php-cs-fixer.lastDownload": 1602487633965,
+
+    // ***********************
+    // - For symfony
+    // ***********************
+
+    // "symfony-vscode.phpExecutablePath": "/usr/local/bin/php",
+
+    // ***********************
+    // - For Better PHPUnit
+    // ***********************
+
+    // "better-phpunit.phpunitBinary": "bin/phpunit",
+    // "better-phpunit.phpunitBinary": "vendor/bin/phpunit",
+
+    // ***********************
+    // - For phpAddProperty
+    // ***********************
+
+    // "phpAddProperty.constructor.breakIntoMultilineIfLengthExceeded.enabled": true,
+    // "phpAddProperty.constructor.docblock.enable": true,
+    // "phpAddProperty.property.visibility.default": "protected",
+    // "phpAddProperty.constructor.docblock.stopForDescription": false,
+
+    // ***********************
+    // - For php-docblocker
+    // ***********************
+
+    "php-docblocker.author": {
+        "name": "Suson Waiba",
+        "email": "susonwaiba@gmail.com"
+        // "email": "suson.waiba@javra.com"
+    },
+    // "php-docblocker.useShortNames": true,
+
+    // ***********************
+    // - Others
+    // ***********************
+
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+    "remote.SSH.remotePlatform": {
+        "192.168.0.4": "linux"
+    },
+    "codespaces.accountProvider": "Microsoft",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true
+}
