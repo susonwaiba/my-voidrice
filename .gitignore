@@ -9,12 +9,33 @@
 
 !.local
 !.local/**
+!.local/src/**
+.local/share/JetBrains
+.local/share/vsliveshare
 
 !.config
 !.config/**
+.config/BraveSoftware
+.config/google-chrome
+.config/htop
+.config/Joplin
+.config/joplin-desktop
+.config/JetBrains
+.config/skypeforlinux
 
 !README.md
 
 # for git
 !.gitignore
 !.gitconfig
+
+# for vscode
+!.config/Code/
+.config/Code/**
+!.config/Code/User/
+.config/Code/User/**
+!.config/Code/User/settings.json
+!.config/Code/User/snippets/
+!.config/Code/User/snippets/**
+!.config/Code/CachedExtensions/
+!.config/Code/CachedExtensions/**
