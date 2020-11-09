@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Prints the current mic is 🗣 or 🤐 🎙️
+
+case $BLOCK_BUTTON in
+    2) amixer set Capture toggle -q ; if [[ $(amixer get Capture | grep '\[off\]') ]] ; then notify-send "🤐 MIC switched OFF" ; else notify-send "🗣 MIC switched ON" ; fi ;;
+esac
+
+if [[ $(amixer get Capture | grep '\[off\]') ]]
+then
+    icon="🤐"
+else
+    icon="🗣"
+fi
+
+echo "$icon🎙"
