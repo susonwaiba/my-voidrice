@@ -13,6 +13,9 @@
 .local/share/JetBrains
 .local/share/vsliveshare
 .local/share/iwctl
+.local/share/lf
+.local/share/weatherreport
+.local/share/xorg
 
 !.config
 !.config/**
@@ -24,6 +27,7 @@
 .config/JetBrains
 .config/skypeforlinux
 .config/zsh/.zcompdump
+.config/sublime-text-3
 
 !README.md
 
